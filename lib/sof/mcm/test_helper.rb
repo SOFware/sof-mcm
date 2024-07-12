@@ -45,7 +45,7 @@ module SOF
         status: 200,
         uri: "https://mcm.josce.mil/api/swpubs",
         action: "assign_user_to_application",
-        comment: "SOF JTAC assigning user",
+        comment: "Assigning user",
         authorization: "Basic #{Base64.strict_encode64("mcmapp:mcmapp")}",
         application_uid: "mcmapp",
         request_body: {},

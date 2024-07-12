@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.1.1] - Unreleased
 
+### Changed
+
+- Altered the comment for test stubbing to remove custom value.
+
 ## [0.1.0] - 2024-07-12
 
 ### Added
