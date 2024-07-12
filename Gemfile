@@ -13,3 +13,6 @@ gem "simplecov"
 
 # Release management
 gem "reissue"
+
+gem "rspec"
+gem "webmock"
