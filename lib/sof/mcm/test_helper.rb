@@ -8,8 +8,7 @@ module SOF
   module MCM
     module TestHelper
       def stub_mcm_headers(
-        auth: "Basic #{Base64.strict_encode64("mcmapp:mcmapp")}",
-        uri: "https://mcm.josce.mil/api/swpubs",
+        uri:, auth: "Basic #{Base64.strict_encode64("mcmapp:mcmapp")}",
         headers: {}
       )
         {
@@ -23,7 +22,7 @@ module SOF
       end
 
       def stub_mcm_list_applications(
-        uri: "https://mcm.josce.mil/api/swpubs",
+        uri:,
         results: [],
         auth: "Basic #{Base64.strict_encode64("mcmapp:mcmapp")}"
       )
@@ -42,8 +41,7 @@ module SOF
 
       def stub_mcm_put(
         edipi,
-        status: 200,
-        uri: "https://mcm.josce.mil/api/swpubs",
+        uri:, status: 200,
         action: "assign_user_to_application",
         comment: "Assigning user",
         authorization: "Basic #{Base64.strict_encode64("mcmapp:mcmapp")}",

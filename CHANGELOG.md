@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 
 - Altered the comment for test stubbing to remove custom value.
+- Made test helper stubbed API URI required.
 
 ## [0.1.0] - 2024-07-12
 
