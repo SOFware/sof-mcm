@@ -33,7 +33,7 @@ GEM
     regexp_parser (2.9.2)
     reissue (0.3.0)
       rake
-    rexml (3.3.8)
+    rexml (3.3.9)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
