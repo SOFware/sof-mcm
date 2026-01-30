@@ -12,6 +12,7 @@ require "reissue/gem"
 
 Reissue::Task.create :reissue do |task|
   task.version_file = "lib/sof/mcm/version.rb"
+  task.push_finalize = :branch
 end
 
 require "standard/rake"
