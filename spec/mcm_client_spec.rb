@@ -15,6 +15,7 @@ module SOF
 
     describe ".assign" do
       include MCM::TestHelper
+
       it "PUTS the user to the MCM assignment API" do
         uri = "https://example.com/api/swpubs"
         stub_mcm_list_applications(

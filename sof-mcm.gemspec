@@ -29,6 +29,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "base64"
   spec.add_dependency "json"
   spec.add_dependency "net_http_timeout_errors"
 end
